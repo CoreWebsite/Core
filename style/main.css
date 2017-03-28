@@ -1,4 +1,13 @@
-h1 {
-color:red;	
-	
+/* Highlight color changes*/ 
+
+::selection {
+    color: #faf7ff; 
+    background: #c099ff;
 }
+
+
+ body {
+        font-family: "Lato", sans-serif;;
+      }
+
+
