@@ -1,0 +1,12 @@
+/* CSS Document */
+h1 {
+color: blue;
+
+	
+}
+
+::selection {
+    color: #30C;
+	border-collapse: 10px;
+    background: #666;
+}
