@@ -30,8 +30,8 @@
     </div>
     <div class="navbar-default" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Home</a></li>
-        <li><a href="about.php">About Us</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li class="active"><a href="about.php">About Us</a></li>
         <li><a href="tutorials.php">Tutorials</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
@@ -55,6 +55,7 @@
 
 <div class="col-sm-10">
 
+	<center>
 	<div class="container_profile">
  	
 
@@ -62,8 +63,8 @@
     <div class="card">
               <img src="avatarImage/blank-avatar.gif" alt="Avatar" style="width:100%">
               <div class="container">
-                <h4><b></b></h4> 
-                <p>Interior Designer</p> 
+                <h4><b></b>Chris</h4> 
+                <p>Coder</p> 
               </div>
     </div>
 
@@ -72,8 +73,8 @@
         <div class="card">
               <img src="avatarImage/blank-avatar.gif" alt="Avatar" style="width:100%">
               <div class="container">
-                <h4><b>Jane Doe</b></h4> 
-                <p>Interior Designer</p> 
+                <h4><b>Vitx</b></h4> 
+                <p>Coder</p> 
               </div>
     </div>
     
@@ -82,14 +83,15 @@
         <div class="card">
               <img src="avatarImage/blank-avatar.gif" alt="Avatar" style="width:100%">
               <div class="container">
-                <h4><b>Jane Doe</b></h4> 
-                <p>Interior Designer</p> 
+                <h4><b>Aspect</b></h4> 
+                <p>Art Designer</p> 
               </div>
     </div>
     
  
     
     </div>
+    </center>
  
  
  
