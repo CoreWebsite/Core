@@ -2,7 +2,7 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <title>test</title>
+    <title>HappyCoder | Home Page</title>
     <link href="image/logoicon.png" rel="icon" type="image/png">
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -15,15 +15,17 @@
     </script>
     <script src="javascript/jquary.js" type="text/javascript">
     </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   
+    <link href="style/login.css" rel="stylesheet" type="text/css"> 
     <link href="style/main.css" rel="stylesheet" type="text/css">
     <link href="style/navigation.css" rel="stylesheet" type="text/css">
     <link href="style/register.css" rel="stylesheet" type="text/css">
-    <script src="js/register.js">
-    </script>
-    <link href="style/login.css" rel="stylesheet" type="text/css">
-    <script src="js/login.js">
-    </script>
+    <link rel="stylesheet" href="style/footer.css" type="text/css">
+    <script src="js/popup.js" type="text/javascript"> </script>
+    <link href="style/footer.css" rel="stylesheet" type="text/css">  
 </head>
+
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -54,69 +56,55 @@
                         <a href="#" onclick="document.getElementById('id02').style.display='block'"><span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
+        <!-- Broken Search bar
+         
+       <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+     --> 
             </div>
         </div>
-    
-    
-    
     </nav>
-    	
-    <div class="col-sm-2 text-left">
-        <h1>Welcome col 2</h1>
-        <p></p>
-        <hr>
-        <h3></h3>
-        <p></p>
+<div class="container">
+<div class="row">
+  <div class="col-sm-12">
+   
+      <!-- Left and right controls -->
+      
+      
+   <div class="w3-content w3-display-container">   
+  <img class="mySlides" src="../Images/img1.jpg" style="width:100%">
+  <img class="mySlides" src="../Images/img2.jpg" style="width:100%">
+  <img class="mySlides" src="../Images/img3.jpg" style="width:100%">
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
-    <div class="col-sm-10 text-center">
-        <h1>Welcome TEST col 10</h1>
-        
-        <div class="slideshow-container">
-  <div class="mySlides fade">
-    <img src="img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-</div>
-<br>
-
-<!-- test -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-        
-        
-        
-        
-    </div>
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
-    </footer>
-    <div class="modal" id="id01">
-        <span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">×</span>
-        <form action="/action_page.php" class="modal-content animate">
-            <div class="container">
-                <label><b>Email</b></label> <input name="email" placeholder="Enter Email" required="" type="text"> <label><b>Password</b></label> <input name="psw" placeholder="Enter Password"
-                required="" type="password"> <label><b>Repeat Password</b></label> <input name="psw-repeat" placeholder="Repeat Password" required="" type="password"> <input checked="checked" type=
-                "checkbox"> Remember me
-                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                <div class="clearfix">
-                    <button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button> <button class="signupbtn" type="submit">Sign Up</button>
+    
+                <div class="modal" id="id01">
+                    <span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">×</span>
+                    <form action="/action_page.php" class="modal-content animate">
+                        <div class="container">
+                            <label><b>Email</b></label> <input name="email" placeholder="Enter Email" required="" type="text"> <label><b>Password</b></label> <input name="psw" placeholder="Enter Password"
+                            required="" type="password"> <label><b>Repeat Password</b></label> <input name="psw-repeat" placeholder="Repeat Password" required="" type="password"> <input checked="checked" type=
+                            "checkbox"> Remember me
+                            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                            <div class="clearfix">
+                                <button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button> <button class="signupbtn" type="submit">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </div>
-        </form>
-    </div>
+                
+    
+    
+    
     <div class="modal" id="id02">
         <span class="close" onclick="document.getElementById('id02').style.display='none'" title="Close Modal">&times;</span>
         <div class="container" style="background-color:#f1f1f1">
@@ -127,37 +115,56 @@
             </form>
         </div>
     </div>
+   </div>
+    
+  		
+     <footer class="text-center footer">
+        <div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</div>
+    </footer>  
+    
+    
 </body>
 
-<script> 
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+<script>
+var myIndex = 0;
+carousel();
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
 </script>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
 
 
 
