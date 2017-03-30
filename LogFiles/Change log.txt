@@ -60,5 +60,21 @@ Try out button issues - Still in progress
 Try out style - Fixed
 Try out html code - Added 
 
-Art profile - Still in progressPatch 0.3 // 2017-03-30
-Fixed and Added more to the slideshow .- Added/FixedNavigation bar fixed for now* - FixedDisabled searchbar - RemovedRemoved col-sm-2 to extend to whole page - Removedprofile card - fixed / AddedFooter - Progress (Still a issues)Profile background - AddedCode Clean up - FixedBroken HTML/CSS codes - FixedUnused code - Removedcol 10 to 8 - changed / FixedFooter Style - CreatedAbout us Style code - AddedFooter on all pages - Added
+Patch 0.3 // Bunch of new stuff 2017-03-30
+
+Art profile - Still in progress
+Fixed and Added more to the slideshow .- Added/Fixed
+Navigation bar fixed for now* - Fixed
+Disabled searchbar - RemovedRemoved 
+col-sm-2 to extend to whole page - Removed
+profile card - fixed / Added
+Footer - Progress (Still a issues)
+Profile background - Added
+Code Clean up - Fixed
+Broken HTML/CSS codes - Fixed
+Unused code - Removed
+col 10 to 8 - changed / Fixed
+Footer Style - Created
+About us Style code - Added
+Footer on all pages - Added
+
