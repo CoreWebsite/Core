@@ -60,49 +60,5 @@ Try out button issues - Still in progress
 Try out style - Fixed
 Try out html code - Added 
 
-Patch 0.3 // Bunch of new stuff 2017-03-30
-
-Art profile - Still in progress
-Fixed and Added more to the slideshow .- Added/Fixed
-Navigation bar fixed for now* - Fixed
-Disabled searchbar - RemovedRemoved 
-col-sm-2 to extend to whole page - Removed
-profile card - fixed / Added
-Footer - Progress (Still a issues)
-Profile background - Added
-Code Clean up - Fixed
-Broken HTML/CSS codes - Fixed
-Unused code - Removed
-col 10 to 8 - changed / Fixed
-Footer Style - Created
-About us Style code - Added
-Footer on all pages - Added
-
-Patch 0.3 // Time line has been released 2017-03-31/01
-
-Timeline - Added
-TOS - Added
-Custom CSS - Added
-Javascript issues - Fixed
-New images - Added
-New design - Added
-Old design - Removed / Recoded
-Code Issued - Fixed
-Clean up the code - Fixed / Cleaned up
-New Java Function - Added
-Register form Popup - Fixed
-Login form popup - Fixed
-Button on Register/Login - Fixed
-Contact form - Still bugged (Need to be fixed sasp)
-Tryitout will be released next week - Added
-TOS text - Added
-Navigation bar bug - Fixed
-Navigation system - Fixed
-CSS Function - Added / Fixed
-CSS Clean up - Fixed
-CopyRight - Added 
-Aboutus design old - need to be fixed to next patch
-
-
-
-
+Art profile - Still in progressPatch 0.3 // 2017-03-30
+Fixed and Added more to the slideshow .- Added/FixedNavigation bar fixed for now* - FixedDisabled searchbar - RemovedRemoved col-sm-2 to extend to whole page - Removedprofile card - fixed / AddedFooter - Progress (Still a issues)Profile background - AddedCode Clean up - FixedBroken HTML/CSS codes - FixedUnused code - Removedcol 10 to 8 - changed / FixedFooter Style - CreatedAbout us Style code - AddedFooter on all pages - Added

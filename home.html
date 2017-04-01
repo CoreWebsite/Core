@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Linked script and shit for our page  || Start of bootraps-->
+  <title> HappyCoder | Home Page</title>
+  <link rel="icon" type="image/png" href="image/??.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+ 
+ 
+    <!--  ======================================! Our Own Coded System  !============================= -->
+ 
+ 
+  <link rel="stylesheet" href="StartPageStyle/nav.css" type="text/css">
+  <link rel="stylesheet" href="StartPageStyle/main.css" type="text/css">
+  <link rel="stylesheet" href="HC-CustomCss/HC-Style.css" type="text/css">
+  <link href="style/popuplr.css" rel="stylesheet" type="text/css"> <!-- LR = Login and Register Form Style-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="StartPageStyle/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="StartPageStyle/style.css"> <!-- Resource style -->
+  
+  <!--  <link href="style/register.css" rel="stylesheet" type="text/css">  
+  <link href="style/login.css" rel="stylesheet" type="text/css">  -->
+  
+  <!--  ======================================! Style of test Can be removed later =============================-->
+  
+  
+
+</head>
+
+	<body data-offset="60" data-spy="scroll" data-target=".navbar" id="myPage">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+				</div><!-- Navigation bar/menu bar -->
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#album">Album</a>
+						</li><!-- -->
+						<li>
+							<a href="#Timeline">Timeline</a>
+						</li>
+						<li>
+							<a href="#Customers">Customers</a>
+						</li>
+						<li>
+							<a href="#test2">test</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<!--  -->
+						<li>
+							<a href="#" onclick="document.getElementById('id01').style.display='block'"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a>
+						</li>
+						<li>
+							<a href="#" onclick="document.getElementById('id02').style.display='block'"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+						</li>
+					</ul>
+					<div class="modal" id="id01">
+						<span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">×</span>
+						<form action="/action_page.php" class="modal-content animate">
+							<div class="container_login">
+								<label><b>Email</b></label> <input name="email" placeholder="Enter Email" required type="text"> <label><b>Password</b></label> <input name="psw" placeholder="Enter Password" required
+								type="password"> <label><b>Repeat Password</b></label> <input name="psw-repeat" placeholder="Repeat Password" required type="password"> <input checked="checked" type="checkbox"> Remember
+								me
+								<p>
+									By creating an account you agree to our <a href="#">Terms & Privacy</a>.
+								</p>
+								<div class="clearfix">
+									<button class="signupbtn" type="submit">Sign Up</button> <button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal" id="id02">
+						<span class="close" onclick="document.getElementById('id02').style.display='none'" title="Close Modal">×</span>
+						<form action="/action_page.php" class="modal-content animate">
+							<div class="container_login">
+								<label><b>Username</b></label> <input name="uname" placeholder="Enter Username" required type="text"> <label><b>Password</b></label> <input name="psw" placeholder="Enter Password"
+								required="" type="password"> <button type="submit">Login</button> <button class="cancelbtn" onclick="document.getElementById('id02').style.display='none'" type="button">Cancel</button>
+								<input checked="checked" type="checkbox"> Remember me <span class="psw">Forgot <a href="#">password?</a></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+        
+        
+<div id="Timeline" class="container-fluid bg-grey text-center">
+  <div class="row">
+    <div class="col-sm-12">
+	
+			<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="Images/cd-icon-picture.svg" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="Images/cd-icon-movie.svg" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Jan 18</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="Images/cd-icon-picture.svg" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Jan 24</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Feb 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="Images/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Feb 18</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="Images/cd-icon-movie.svg" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Final Section</h2>
+				<p>This is the content of the last section</p>
+				<span class="cd-date">Feb 26</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+    </div>
+  </div>
+</div>
+
+
+<!--  What our customers say   -->
+		<center>
+			<h2>
+				What our customers say
+			</h2>
+		</center>
+		<div class="carousel slide text-center" data-ride="carousel" id="Customers">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<h4>
+						"TEXT INSERT HERE"<br>
+						<span style="font-style:normal;">Name of the Person</span>
+					</h4>
+				</div>
+				<div class="item">
+					<h4>
+						"Text insert here "<br>
+						<span style="font-style:normal;">Name Of the person</span>
+					</h4>
+				</div>
+				<div class="item">
+					<h4>
+						"Text insert here"<br>
+						<span style="font-style:normal;">Name of the person here</span>
+					</h4>
+				</div>
+			</div><a class="left carousel-control" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class=
+			"sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span></a>
+		</div><!--   -->
+		<div id="contact">
+			<br>
+			<br>
+			<br>
+			<div class="container-fluid bg-grey" id="contact">
+				<h2 class="text-center">
+					CONTACT
+				</h2>
+				<div class="row">
+					<div class="col-sm-5">
+						<p></p>
+						<p>
+							<span class="glyphicon glyphicon-map-marker"></span>
+						</p>
+						<p>
+							<span class="glyphicon glyphicon-phone"></span>
+						</p>
+						<p>
+							<span class="glyphicon glyphicon-envelope"></span>
+						</p>
+						<p>
+							<span class="glyphicon glyphicon-envelope"></span>
+						</p>
+						<p>
+							<span></span>HappyCoder © 2017  
+                            <a href="tos.php"> TOS |</a>
+                            <a href="privacy.php"> Privacy Policy </a>
+						</p>
+
+
+					</div>
+					<div class="col-sm-7 slideanim" id="contact">
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<input class="form-control" id="name" name="name" placeholder="Name" required type="text">
+							</div>
+							<div class="col-sm-6 form-group">
+								<input class="form-control" id="email" name="email" placeholder="Email" required type="email">
+							</div>
+						</div>
+						<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+						<div class="row">
+							<div class="col-sm-12 form-group">
+								<button class="btn btn-default pull-right" type="submit">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+			<!--  ======================================! Custom Javascript for the website  !============================= -->
+			<script type="text/javascript" src="/JS/jquary.js"></script>
+  			<script type="text/javascript" src="/ImageJS/modernizr.js"></script>
+        	<script type="text/javascript" src="/JS/popup.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="/JS/modernizr.js"></script>
+	
+    </body>  
+</html>

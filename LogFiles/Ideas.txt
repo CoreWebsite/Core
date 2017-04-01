@@ -1,0 +1,9 @@
+1. Codeacademy: Login and Sign in button is diffrent color https://gyazo.com/ed579c839997a6e92e08a676e137cda6
+2. Signup red https://gyazo.com/86613edb562e6f693fa49f97dd5b6ca8
+3. Success Stories - maybe https://gyazo.com/39ad4b2156a4ea7c76779ce360840b09
+4. Icons for coding! https://gyazo.com/c70fe5dba11574466efc590993e8a7a8
+5. Little guideline https://gyazo.com/1cdb0e500e5ffae0bfa73f89a79a79ec
+6. PopUp javascript http://thecodeplayer.com/
+7. Navigation is dissapears and appears again https://www.udacity.com/
+8. Scrolling parallax effect https://codehs.com/
+
