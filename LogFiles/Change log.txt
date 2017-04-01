@@ -78,6 +78,7 @@ Footer Style - Created
 About us Style code - Added
 Footer on all pages - Added
 
+<<<<<<< HEAD
 Patch 0.3 // Time line has been released 2017-03-31/01
 
 Timeline - Added
@@ -106,3 +107,5 @@ Aboutus design old - need to be fixed to next patch
 
 
 
+=======
+>>>>>>> origin/master
